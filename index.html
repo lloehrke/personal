@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lukus Loehrke - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container{
+            max-width:960px;
+            margin: 0 auto;
+            padding:40px;
+        }
+
+        .project{
+            margin-bottom:20px;
+            border:1px solid #ccc;
+            padding:20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>blah blahy blah</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <img src="profile.jpg" alt="Profile Photo" height="320 px" width="320 px">
+            <p style="font-family:'Courier New', Courier, monospace; color: brown">Web Developer</p>
+            <h1>Lukus Loehrke</h1>
+            <p>
+                I am a junior year undergraduate student attending Iowa State University.
+                I'm studying Software Engineering and am currently taking 16 credit hours this semester.
+            </p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Projects 1" height="160 px" width="240 px">
+                <h3>Project 1</h3>
+                <p>
+                    The first project is related to develop a single WEb page using
+                    only two technologies: HTML and CSS. The project consists on 
+                    creating a single web page with a menu at the top known as the 
+                    Navigation Bar. We have to include text describing ourself and 
+                    text describing the project. Additionally, we need to include
+                    two images: one image is of ourself and the second image is anything
+                    related to the project iself.
+                </p>
+            </div>
+            Add more project divs here
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>You can reach me at lloehrke@iastate.edu</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Lukus Loehrke</p>
+    </footer>
 </body>
 </html>
